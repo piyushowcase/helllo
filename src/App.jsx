@@ -16,9 +16,9 @@ function App() {
         <Route path="/birthday" element={
               <HappyBdy />
          } />
-             <Route path="/beautiful" element={<BirthdayGuard>
+             <Route path="/beautiful" element={
               <LifeTimer />
-            </BirthdayGuard>} />
+            } />
              <Route path="/letter" element={
               <Letter/>
             } />

@@ -14,17 +14,14 @@ function CountDown() {
       const now = new Date().getTime();
       const difference = targetDate - now;
 
-      if (difference <= 0) {
-        // 🚀 Time is up! Programmatically navigate to the birthday page
-        navigate('/birthday'); 
-      } else {
+     
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
         const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
         const minutes = Math.floor((difference / 1000 / 60) % 60);
         const seconds = Math.floor((difference / 1000) % 60);
 
         setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
-      }
+      
     };
 
     checkTime();
