@@ -48,7 +48,7 @@ function Letter() {
         {/* Letter Header */}
         <div className="border-b border-dashed border-pink-200 pb-4 mb-6">
           <h2 className="font-serif text-2xl sm:text-3xl text-rose-600 font-bold tracking-tight">
-            Dearest Bestie, ✨
+            Dearest madam ji, ✨
           </h2>
           <p className="text-right text-xs sm:text-sm font-mono text-gray-400 mt-1">
             {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
@@ -63,7 +63,7 @@ function Letter() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            Happy, happy birthday! 🎉 Words can't describe how incredibly lucky I am to have you in my life. You are the kind of friend who turns standard everyday moments into absolute core memories, and I appreciate you more than you know.
+            Happy, happy birthday, 🎉. I know you are officially a 21-year-old budiya now 👵, but look on the bright side—at least you found an incredible, chaotic bandu friend like me to keep you young during your old-age budhapa years! Happy birthday, my favorite chmkadar!
           </motion.p>
 
           <motion.p
@@ -71,7 +71,7 @@ function Letter() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2, duration: 0.6 }}
           >
-            Thank you for being my constant partner-in-crime, the listener to my long late-night rants, and the human sunshine who always knows exactly how to cheer me up when things get crazy. ☀️ 
+         Honestly, I need to thank the universe for matching my level of crazy with someone as incredibly chaotic and amazing as you! I always wanted a best friend, but I ended up finding a literal partner-in-crime who exceeded every single expectation. Our time together might fly by too fast, but it is packed with enough wild moments, absolute madness, and dramatic little fights to last a lifetime. I wouldn't trade our chaotic energy for anything in the world. You completely flipped my perspective on life and taught me how to live it out loud. Thanks for being the ultimate sanity-saver and the best kind of crazy!" 🤪💥✨
           </motion.p>
 
           <motion.p
@@ -88,7 +88,7 @@ function Letter() {
         <div className="mt-12 pt-6 border-t border-dashed border-pink-200 flex flex-col items-end">
           <p className="font-serif italic text-gray-500 text-sm">Forever & always,</p>
           <p className="font-serif text-xl sm:text-2xl font-bold text-rose-500 mt-1 tracking-wide">
-            Your Favorite Human ❤️
+            Your gay freind ❤️
           </p>
         </div>
     <div className="mt-8 flex justify-center">
