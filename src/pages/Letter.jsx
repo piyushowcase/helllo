@@ -88,7 +88,7 @@ function Letter() {
         <div className="mt-12 pt-6 border-t border-dashed border-pink-200 flex flex-col items-end">
           <p className="font-serif italic text-gray-500 text-sm">Forever & always,</p>
           <p className="font-serif text-xl sm:text-2xl font-bold text-rose-500 mt-1 tracking-wide">
-            Your gay freind ❤️
+            Your's gay freind ❤️
           </p>
         </div>
     <div className="mt-8 flex justify-center">
